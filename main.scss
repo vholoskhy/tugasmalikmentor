@@ -8,7 +8,7 @@ header {
   font-weight: 900;
   font-style: normal;
   z-index: 999;
-  //   position: absolute;
+  color: white;
   position: fixed;
 
   .navbar {
@@ -20,7 +20,7 @@ header {
     align-items: center;
     background-color: transparent;
     font-size: 18px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid wheat;
   }
   .logo {
     margin: 5px;
@@ -37,8 +37,9 @@ header {
   .corvette {
     padding: 5px;
     margin: 5px;
-    border-left: 4px solid red;
+    border-left: 4px solid white;
     font-size: 1cm;
+    text-shadow: 4px 4px black;
   }
   .navbar-list-1 {
     display: flex;
@@ -47,6 +48,7 @@ header {
     gap: 20px;
     list-style: none;
     cursor: pointer;
+    text-shadow: 4px 4px black;
   }
 }
 
@@ -58,5 +60,13 @@ section {
     background-size: 100%;
     background-position: fixed;
     object-fit: cover;
+  }
+  .sec-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+  .sec-text h1 {
+    font-size: 2cm;
   }
 }
