@@ -21,6 +21,7 @@ header {
     background-color: transparent;
     font-size: 18px;
     border-bottom: 2px solid wheat;
+    cursor: pointer;
   }
   .logo {
     margin: 5px;
@@ -50,6 +51,35 @@ header {
     cursor: pointer;
     text-shadow: 4px 4px black;
   }
+  .placeholder {
+    width: 130px;
+    color: blue;
+    border-radius: 3px;
+  }
+  li:hover {
+    // background-color: grey;
+    border-bottom: 3px solid white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .button {
+    display: flex;
+    padding: 5px;
+    gap: 1rem;
+  }
+  .button i {
+    margin: 2px;
+    padding: 5px;
+    gap: 10px;
+  }
+  .button p {
+    text-decoration: underline;
+    padding: 2px;
+  }
+  .button button {
+    margin: 5px;
+    padding: 5px;
+  }
 }
 
 section {
@@ -64,9 +94,14 @@ section {
   .sec-text {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 20%;
+    color: white;
   }
   .sec-text h1 {
     font-size: 2cm;
+    text-shadow: 3px 3px maroon;
+  }
+  .sec-text p {
+    text-shadow: 2px 2px maroon;
   }
 }

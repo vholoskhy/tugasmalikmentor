@@ -22,6 +22,7 @@ header .navbar {
   background-color: transparent;
   font-size: 18px;
   border-bottom: 2px solid wheat;
+  cursor: pointer;
 }
 header .logo {
   margin: 5px;
@@ -51,6 +52,34 @@ header .navbar-list-1 {
   cursor: pointer;
   text-shadow: 4px 4px black;
 }
+header .placeholder {
+  width: 130px;
+  color: blue;
+  border-radius: 3px;
+}
+header li:hover {
+  border-bottom: 3px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+header .button {
+  display: flex;
+  padding: 5px;
+  gap: 1rem;
+}
+header .button i {
+  margin: 2px;
+  padding: 5px;
+  gap: 10px;
+}
+header .button p {
+  text-decoration: underline;
+  padding: 2px;
+}
+header .button button {
+  margin: 5px;
+  padding: 5px;
+}
 
 section .sec-images {
   top: 0;
@@ -63,10 +92,15 @@ section .sec-images {
 section .sec-text {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 20%;
+  color: white;
 }
 section .sec-text h1 {
   font-size: 2cm;
+  text-shadow: 3px 3px maroon;
+}
+section .sec-text p {
+  text-shadow: 2px 2px maroon;
 }
 
 /*# sourceMappingURL=main.css.map */
