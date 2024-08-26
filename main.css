@@ -199,7 +199,7 @@ section .learn {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
+  width: 1600px;
   height: 200px;
 }
 
@@ -217,6 +217,18 @@ section .learn {
 .text-button {
   width: 200px;
   padding: 10px;
+}
+
+.gallery {
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gal-images img {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
