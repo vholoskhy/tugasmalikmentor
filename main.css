@@ -127,6 +127,7 @@ section .learn {
   padding: 5px;
   font-size: 15px;
   box-shadow: 2px 2px yellow;
+  cursor: pointer;
 }
 
 .container {
@@ -158,6 +159,7 @@ section .learn {
   height: 400px;
   box-shadow: 20px 20px black;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .diskon {
@@ -169,11 +171,13 @@ section .learn {
   width: max-content;
   height: 30px;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .beli {
   margin: 20px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .sec-2 h1 {
@@ -184,6 +188,7 @@ section .learn {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .techno img {
@@ -201,12 +206,14 @@ section .learn {
   align-items: center;
   width: 1600px;
   height: 200px;
+  cursor: pointer;
 }
 
 .child-pleasure {
   margin: 20px;
   width: 400px;
   height: 200px;
+  cursor: pointer;
 }
 
 .child-pleasure img {
@@ -225,10 +232,12 @@ section .learn {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .gal-images img {
   width: 200px;
+  cursor: pointer;
 }
 
 .footer-1 {
@@ -240,6 +249,7 @@ section .learn {
   align-items: center;
   justify-content: center;
   display: flex;
+  cursor: pointer;
 }
 
 .footer-2 {
@@ -250,17 +260,20 @@ section .learn {
   align-items: center;
   background-color: grey;
   margin: 1px;
+  cursor: pointer;
 }
 
 .footer-2 input {
   border-radius: 10px;
   width: 600px;
   height: 40px;
+  cursor: pointer;
 }
 
 .footer-3 {
   width: 10 0%;
   display: flex;
+  cursor: pointer;
   justify-content: space-between;
   margin: 1px;
   background-color: grey;
@@ -269,14 +282,27 @@ section .learn {
 .footer-4 {
   margin: 10px;
   width: 300px;
+  cursor: pointer;
   list-style: none;
-  border-right: 5px solid red;
+  border-right: 5px solid #bec6a0;
 }
 
 .footer-4 h2 {
   margin: 5px;
   padding: 5px;
   text-shadow: 2px 2px white;
+  cursor: pointer;
+}
+
+.footer-5 {
+  width: 100%;
+  height: 40px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
