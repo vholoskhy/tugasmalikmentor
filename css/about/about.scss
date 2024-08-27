@@ -3,15 +3,16 @@
   padding: 0;
 }
 body {
-  background-image: url(/css/about/il_fullxfull.4596931661_t456.avif);
+  background-image: url(/css/about/124129.jpg);
   background-size: 100%;
   background-position: cover;
 }
 header {
-  color: white;
+  color: black;
 }
 .list-h3 {
   margin: 20px;
+  width: 200px;
 }
 .list {
   display: flex;
@@ -36,11 +37,38 @@ header {
   }
 }
 .list-2 {
+  position: relative;
   width: 400px;
   height: 300px;
+  .list-2-button {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    margin: 10px;
+  }
+  .list-2-button p {
+    color: red;
+  }
 }
 .list-2 img {
-  width: 400px;
+  width: 470px;
   height: 300px;
   border-radius: 5px;
+}
+
+.navbar {
+  .navbar-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 3px solid maroon;
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px 2px white;
+  }
+}
+.navbar-list-1 ul {
+  margin: 10px;
 }
