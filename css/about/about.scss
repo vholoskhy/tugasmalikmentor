@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/css/about/il_fullxfull.4596931661_t456.avif);
+  background-size: 100%;
+  background-position: cover;
+}
+header {
+  color: white;
+}
+.list-h3 {
+  margin: 20px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1850px;
+  height: 400px;
+}
+
+.list-1 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+
+  .list-1-input {
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    border-radius: 20px;
+  }
+}
+.list-2 {
+  width: 400px;
+  height: 300px;
+}
+.list-2 img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
