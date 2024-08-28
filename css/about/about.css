@@ -129,10 +129,11 @@ header {
 }
 
 .navbar-list-1 ul li:hover {
-  background-color: white;
   color: maroon;
   font-weight: 900;
   padding: 20px;
+  background: rgb(112, 173, 117);
+  background: linear-gradient(90deg, rgb(112, 173, 117) 22%, rgb(51, 102, 53) 35%, rgb(64, 95, 64) 48%, rgb(38, 53, 35) 50%, rgb(92, 103, 22) 64%, rgb(42, 204, 21) 71%, rgb(13, 14, 11) 85%, rgb(16, 17, 10) 86%, rgb(15, 16, 10) 86%, rgb(150, 168, 34) 86%, rgb(125, 143, 20) 86%, rgb(16, 17, 10) 88%, rgba(8, 9, 7, 0.2931373233) 90%);
 }
 
 .footer {
@@ -150,8 +151,8 @@ header {
   list-style: none;
   cursor: pointer;
   font-weight: 900;
-  border-left: 4px solid #dd761c;
-  border-bottom: 4px solid #feb941;
+  border-left: 2px solid #dd761c;
+  border-bottom: 2px solid #feb941;
 }
 
 .ul-list li:hover {

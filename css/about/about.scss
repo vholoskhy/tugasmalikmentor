@@ -123,10 +123,26 @@ header {
   color: white;
 }
 .navbar-list-1 ul li:hover {
-  background-color: white;
   color: maroon;
   font-weight: 900;
   padding: 20px;
+  background: rgb(112, 173, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(112, 173, 117, 1) 22%,
+    rgba(51, 102, 53, 1) 35%,
+    rgba(64, 95, 64, 1) 48%,
+    rgba(38, 53, 35, 1) 50%,
+    rgba(92, 103, 22, 1) 64%,
+    rgba(42, 204, 21, 1) 71%,
+    rgba(13, 14, 11, 1) 85%,
+    rgba(16, 17, 10, 1) 86%,
+    rgba(15, 16, 10, 1) 86%,
+    rgba(150, 168, 34, 1) 86%,
+    rgba(125, 143, 20, 1) 86%,
+    rgba(16, 17, 10, 1) 88%,
+    rgba(8, 9, 7, 0.29313732328869047) 90%
+  );
 }
 .footer {
   color: white;
@@ -142,8 +158,8 @@ header {
         list-style: none;
         cursor: pointer;
         font-weight: 900;
-        border-left: 4px solid #dd761c;
-        border-bottom: 4px solid #feb941;
+        border-left: 2px solid #dd761c;
+        border-bottom: 2px solid #feb941;
       }
     }
   }
