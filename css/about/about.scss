@@ -3,16 +3,42 @@
   padding: 0;
 }
 body {
-  background-image: url(/css/about/124129.jpg);
+  background-image: url(/css/about/small.avif);
   background-size: 100%;
-  background-position: cover;
+  background-position: center;
 }
 header {
-  color: black;
+  color: white;
 }
 .list-h3 {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.list-h3 h3 {
+  color: white;
   margin: 20px;
   width: 200px;
+  font-size: 30px;
+}
+.list-h3 a {
+  color: white;
+  font-weight: 900;
+  width: 100%;
+  font-size: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-h3 a:hover {
+  color: white;
+  // background-color: white;
+  border-bottom: 5px solid white;
 }
 .list {
   display: flex;
@@ -46,6 +72,7 @@ header {
     width: 50px;
     margin: 10px;
   }
+
   .list-2-button p {
     color: red;
   }
@@ -63,12 +90,38 @@ header {
     list-style: none;
     cursor: pointer;
     font-size: 20px;
-    border-bottom: 3px solid maroon;
-    color: black;
-    font-weight: bold;
-    text-shadow: 5px 2px white;
+    border-bottom: 3px solid white;
+    color: white;
+    font-weight: 900;
+
+    padding: 20px;
+  }
+  .navbar-list li:hover {
+    background-color: white;
+    padding: 10px;
+    color: maroon;
+    border-radius: 5px;
   }
 }
+.navbar-list-1 {
+  margin: 20px;
+}
 .navbar-list-1 ul {
+  margin-top: 10px;
+}
+.navbar-list-1 ul li {
   margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  border-bottom: 3px solid white;
+
+  cursor: pointer;
+  color: white;
+}
+.navbar-list-1 ul li:hover {
+  background-color: white;
+  color: maroon;
+  font-weight: 900;
+  padding: 20px;
 }
