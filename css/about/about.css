@@ -7,6 +7,9 @@ body {
   background-image: url(/css/about/small.avif);
   background-size: 100%;
   background-position: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 header {
@@ -98,7 +101,7 @@ header {
   border-bottom: 3px solid white;
   color: white;
   font-weight: 900;
-  padding: 20px;
+  padding: 10px;
 }
 .navbar .navbar-list li:hover {
   background-color: white;
@@ -130,6 +133,73 @@ header {
   color: maroon;
   font-weight: 900;
   padding: 20px;
+}
+
+.footer {
+  color: white;
+}
+.footer .footer-1-1 .footer-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+.footer .footer-1-1 .footer-ul .ul-list li {
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 900;
+  border-left: 4px solid #dd761c;
+  border-bottom: 4px solid #feb941;
+}
+
+.ul-list li:hover {
+  background-color: #dd761c;
+}
+
+.footer-list-1 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-button button {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  align-items: center;
+  background-color: #feb941;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footer-button button:hover {
+  background-color: #dd761c;
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  align-items: center;
+  margin: 20px;
+}
+
+.logo i {
+  font-size: 50px;
+  gap: 2rem;
+  color: #dd761c;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=about.css.map */
