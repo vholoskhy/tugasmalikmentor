@@ -5,6 +5,6 @@
   "scripts": {
     "sass": "sass --watch main.scss main.css",
     "sass2": "sass --watch ./css/about/about.scss ./css/about/about.css",
-    "sass3": "sass --watch ./css/form/form.scss ./css/form/form.css"
+    "sass3": "sass --watch ./css/about/form/form.scss ./css/about/form/form.css"
   }
 }

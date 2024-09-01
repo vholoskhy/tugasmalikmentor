@@ -1,6 +1,6 @@
-// const menuIcon = document.getElementById("menu-icon");
-// const menuList = document.getElementById("menu-list");
+const menuIcon = document.getElementById("menu-icon");
+const menuList = document.getElementById("menu-list");
 
-// menuIcon.addEventListener("click", () => {
-//   menuList.classList.toggle("navbar-list-1");
-// });
+menuIcon.addEventListener("click", () => {
+  menuList.classList.toggle("navbar-list-1");
+});
