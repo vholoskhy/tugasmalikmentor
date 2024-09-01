@@ -486,8 +486,8 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1600px;
-  height: 200px;
+  width: 768px;
+  height: 100px;
   cursor: pointer;
 }
 .child-pleasure {
@@ -596,71 +596,71 @@ section {
       justify-content: space-between;
       align-items: center;
       background-color: transparent;
-      font-size: 9px;
+      font-size: 5px;
       border-bottom: 1px solid black;
       width: 100%;
       cursor: pointer;
     }
     .logo {
-      margin: 2.5px;
+      margin: 1.5px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .logo img {
-      margin: 2.5px;
-      width: 25px;
-      height: 25px;
-      border-radius: 5px;
+      margin: 1.5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 3px;
     }
     .corvette {
-      padding: 2.5px;
-      margin: 2.5px;
-      border-left: 1.5px solid red;
-      font-size: 0.5cm;
-      text-shadow: 1px 1px white;
+      padding: 1.5px;
+      margin: 1.5px;
+      border-left: 1px solid red;
+      font-size: 0.3cm;
+      text-shadow: 0.7px 0.7px white;
     }
     .navbar-list-1 {
       position: relative;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 10px;
+      gap: 7px;
       list-style: none;
       cursor: pointer;
-      text-shadow: 1px 1px white;
+      text-shadow: 0.7px 0.7px white;
     }
     .placeholder {
-      width: 200px;
-      height: 10px;
+      width: 120px;
+      height: 7px;
       color: blue;
-      border-radius: 1.5px;
+      border-radius: 0.7px;
     }
     li:hover {
-      border-bottom: 1.5px solid black;
-      border-radius: 2.5px;
-      padding: 3.5px;
+      border-bottom: 1px solid black;
+      border-radius: 2px;
+      padding: 2.3px;
     }
     .button {
       display: flex;
-      padding: 2.5px;
-      gap: 0.5rem;
+      padding: 2px;
+      gap: 0.3rem;
     }
     .button i {
-      margin: 1px;
-      padding: 2.5px;
-      gap: 5px;
+      margin: 0.7px;
+      padding: 2px;
+      gap: 3px;
     }
     .button p {
       text-decoration: underline;
-      padding: 1px;
+      padding: 0.7px;
     }
     .button button {
-      margin: 2.5px;
-      padding: 2.5px;
+      margin: 2px;
+      padding: 2px;
     }
     .menu-icon {
-      font-size: 15px;
+      font-size: 10px;
     }
   }
 
@@ -685,21 +685,21 @@ section {
       color: white;
     }
     .sec-text h1 {
-      font-size: 1cm;
-      text-shadow: 1.5px 1.5px maroon;
-    }
-    .sec-text p {
+      font-size: 0.7cm;
       text-shadow: 1px 1px maroon;
     }
+    .sec-text p {
+      text-shadow: 0.7px 0.7px maroon;
+    }
     .learn {
-      margin-top: 10px;
+      margin-top: 7px;
       color: yellow;
       font-weight: 500;
       background-color: transparent;
-      width: 50px;
-      padding: 2.5px;
-      font-size: 7.5px;
-      box-shadow: 1px 1px yellow;
+      width: 30px;
+      padding: 2px;
+      font-size: 5px;
+      box-shadow: 0.7px 0.7px yellow;
       cursor: pointer;
     }
   }
@@ -713,47 +713,47 @@ section {
   .produk {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 10px;
-    width: 600px;
-    height: 75vh;
+    margin-top: 7px;
+    width: 450px;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     background-color: white;
-    gap: 0.5rem;
+    gap: 0.3rem;
   }
   .produk-image {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 7px;
   }
   .produk-image img {
-    width: 350px;
-    height: 200px;
-    box-shadow: 10px 10px black;
-    border-radius: 10px;
+    width: 250px;
+    height: 120px;
+    box-shadow: 7px 7px black;
+    border-radius: 7px;
     cursor: pointer;
   }
   .diskon {
     color: red;
     background-color: white;
-    font-size: 10px;
+    font-size: 7px;
     position: absolute;
-    padding: 2.5px;
+    padding: 2px;
     width: max-content;
-    height: 15px;
-    border-radius: 1.5px;
+    height: 10px;
+    border-radius: 1px;
     cursor: pointer;
   }
   .beli {
-    margin: 10px;
-    padding: 5px;
+    margin: 7px;
+    padding: 3px;
     cursor: pointer;
   }
 }
 .sec-2 h1 {
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid red;
-  padding: 10px;
-  margin-top: 25px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid red;
+  padding: 7px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -762,52 +762,52 @@ section {
 
 .techno img {
   width: 100%;
-  height: 400px;
+  height: 250px;
   background-size: 100%;
 }
 .childs {
-  margin: 10px;
+  margin: 7px;
   width: 100%;
-  height: 150vh;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1600px;
-  height: 200px;
-  cursor: pointer;
-}
-.child-pleasure {
-  margin: 10px;
-  width: 200px;
+  width: 481px;
   height: 100px;
   cursor: pointer;
 }
-.child-pleasure img {
-  width: 150px;
+.child-pleasure {
+  margin: 7px;
+  width: 120px;
   height: 75px;
+  cursor: pointer;
+}
+.child-pleasure img {
+  width: 100px;
+  height: 50px;
 }
 .text-button {
-  width: 100px;
+  width: 75px;
 
-  padding: 5px;
+  padding: 3px;
 }
 
 .gallery {
-  margin: 20px;
-  padding: 10px;
+  margin: 12px;
+  padding: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 .gal-images img {
-  width: 100px;
+  width: 75px;
   cursor: pointer;
 }
 .footer-1 {
-  font-size: 6px;
+  font-size: 4px;
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color: gray;
   text-align: center;
 
@@ -818,18 +818,18 @@ section {
 }
 .footer-2 {
   width: 100%;
-  height: 40px;
+  height: 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: grey;
-  margin: 0.5px;
+  margin: 0.3px;
   cursor: pointer;
 }
 .footer-2 input {
-  border-radius: 50px;
-  width: 300px;
-  height: 20px;
+  border-radius: 30px;
+  width: 178px;
+  height: 120px;
   cursor: pointer;
 }
 .footer-3 {
@@ -837,33 +837,29 @@ section {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
-  margin: 0.5px;
+  margin: 0.3px;
   background-color: grey;
 }
 .footer-4 {
-  margin: 5px;
-  width: 150px;
+  margin: 3px;
+  width: 100px;
   cursor: pointer;
   list-style: none;
-  border-right: 2.5px solid #bec6a0;
+  border-right: 2px solid #bec6a0;
 }
 .footer-4 h2 {
-  margin: 2.5px;
-  padding: 2.5px;
-  text-shadow: 1px 1px white;
+  margin: 2px;
+  padding: 2px;
+  text-shadow: 0.7px 0.7px white;
   cursor: pointer;
 }
 .footer-5 {
   width: 100%;
-  height: 20px;
+  height: 12x;
   background-color: gray;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 10px;
+  font-size: 7px;
   cursor: pointer;
-}
-
-// mobile
-@media only screen and (max-width: 450px) {
 }
