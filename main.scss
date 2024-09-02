@@ -290,8 +290,6 @@ section {
   font-size: 20px;
   cursor: pointer;
 }
-.footer-5 i {
-}
 
 // tablet
 @media only screen and (max-width: 768px) {
@@ -462,120 +460,120 @@ section {
     padding: 5px;
     cursor: pointer;
   }
-}
-.sec-2 h1 {
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid red;
-  padding: 10px;
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
+  .sec-2 h1 {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid red;
+    padding: 10px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.techno img {
-  width: 100%;
-  height: 400px;
-  background-size: 100%;
-}
-.childs {
-  margin: 10px;
-  width: 100%;
-  height: 150vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 768px;
-  height: 100px;
-  cursor: pointer;
-}
-.child-pleasure {
-  margin: 10px;
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
-}
-.child-pleasure img {
-  width: 150px;
-  height: 75px;
-}
-.text-button {
-  width: 100px;
+  .techno img {
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+  }
+  .childs {
+    margin: 10px;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 768px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .child-pleasure {
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .child-pleasure img {
+    width: 150px;
+    height: 75px;
+  }
+  .text-button {
+    width: 100px;
 
-  padding: 5px;
-}
+    padding: 5px;
+  }
 
-.gallery {
-  margin: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.gal-images img {
-  width: 100px;
-  cursor: pointer;
-}
-.footer-1 {
-  font-size: 6px;
-  width: 100%;
-  height: 70px;
-  background-color: gray;
-  text-align: center;
+  .gallery {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .gal-images img {
+    width: 100px;
+    cursor: pointer;
+  }
+  .footer-1 {
+    font-size: 6px;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    text-align: center;
 
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  cursor: pointer;
-}
-.footer-2 {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: grey;
-  margin: 0.5px;
-  cursor: pointer;
-}
-.footer-2 input {
-  border-radius: 50px;
-  width: 300px;
-  height: 20px;
-  cursor: pointer;
-}
-.footer-3 {
-  width: 100%;
-  display: flex;
-  cursor: pointer;
-  justify-content: space-between;
-  margin: 0.5px;
-  background-color: grey;
-}
-.footer-4 {
-  margin: 5px;
-  width: 150px;
-  cursor: pointer;
-  list-style: none;
-  border-right: 2.5px solid #bec6a0;
-}
-.footer-4 h2 {
-  margin: 2.5px;
-  padding: 2.5px;
-  text-shadow: 1px 1px white;
-  cursor: pointer;
-}
-.footer-5 {
-  width: 100%;
-  height: 20px;
-  background-color: gray;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 10px;
-  cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+  .footer-2 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+    margin: 0.5px;
+    cursor: pointer;
+  }
+  .footer-2 input {
+    border-radius: 50px;
+    width: 300px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .footer-3 {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    margin: 0.5px;
+    background-color: grey;
+  }
+  .footer-4 {
+    margin: 5px;
+    width: 150px;
+    cursor: pointer;
+    list-style: none;
+    border-right: 2.5px solid #bec6a0;
+  }
+  .footer-4 h2 {
+    margin: 2.5px;
+    padding: 2.5px;
+    text-shadow: 1px 1px white;
+    cursor: pointer;
+  }
+  .footer-5 {
+    width: 100%;
+    height: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+  }
 }
 
 // mobile
@@ -748,118 +746,118 @@ section {
     padding: 3px;
     cursor: pointer;
   }
-}
-.sec-2 h1 {
-  border-top: 1px solid black;
-  border-bottom: 1px solid red;
-  padding: 7px;
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
+  .sec-2 h1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid red;
+    padding: 7px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.techno img {
-  width: 100%;
-  height: 250px;
-  background-size: 100%;
-}
-.childs {
-  margin: 7px;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 481px;
-  height: 100px;
-  cursor: pointer;
-}
-.child-pleasure {
-  margin: 7px;
-  width: 120px;
-  height: 75px;
-  cursor: pointer;
-}
-.child-pleasure img {
-  width: 100px;
-  height: 50px;
-}
-.text-button {
-  width: 75px;
+  .techno img {
+    width: 100%;
+    height: 250px;
+    background-size: 100%;
+  }
+  .childs {
+    margin: 7px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 481px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .child-pleasure {
+    margin: 7px;
+    width: 120px;
+    height: 75px;
+    cursor: pointer;
+  }
+  .child-pleasure img {
+    width: 100px;
+    height: 50px;
+  }
+  .text-button {
+    width: 75px;
 
-  padding: 3px;
-}
+    padding: 3px;
+  }
 
-.gallery {
-  margin: 12px;
-  padding: 7px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.gal-images img {
-  width: 75px;
-  cursor: pointer;
-}
-.footer-1 {
-  font-size: 4px;
-  width: 100%;
-  height: 50px;
-  background-color: gray;
-  text-align: center;
+  .gallery {
+    margin: 12px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .gal-images img {
+    width: 75px;
+    cursor: pointer;
+  }
+  .footer-1 {
+    font-size: 4px;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    text-align: center;
 
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  cursor: pointer;
-}
-.footer-2 {
-  width: 100%;
-  height: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: grey;
-  margin: 0.3px;
-  cursor: pointer;
-}
-.footer-2 input {
-  border-radius: 30px;
-  width: 178px;
-  height: 120px;
-  cursor: pointer;
-}
-.footer-3 {
-  width: 100%;
-  display: flex;
-  cursor: pointer;
-  justify-content: space-between;
-  margin: 0.3px;
-  background-color: grey;
-}
-.footer-4 {
-  margin: 3px;
-  width: 100px;
-  cursor: pointer;
-  list-style: none;
-  border-right: 2px solid #bec6a0;
-}
-.footer-4 h2 {
-  margin: 2px;
-  padding: 2px;
-  text-shadow: 0.7px 0.7px white;
-  cursor: pointer;
-}
-.footer-5 {
-  width: 100%;
-  height: 12x;
-  background-color: gray;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 7px;
-  cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+  .footer-2 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+    margin: 0.3px;
+    cursor: pointer;
+  }
+  .footer-2 input {
+    border-radius: 30px;
+    width: 178px;
+    height: 120px;
+    cursor: pointer;
+  }
+  .footer-3 {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    margin: 0.3px;
+    background-color: grey;
+  }
+  .footer-4 {
+    margin: 3px;
+    width: 100px;
+    cursor: pointer;
+    list-style: none;
+    border-right: 2px solid #bec6a0;
+  }
+  .footer-4 h2 {
+    margin: 2px;
+    padding: 2px;
+    text-shadow: 0.7px 0.7px white;
+    cursor: pointer;
+  }
+  .footer-5 {
+    width: 100%;
+    height: 12x;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 7px;
+    cursor: pointer;
+  }
 }
